@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Math Jumbo Bingo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Math Jumbo Bingo</h1>
+      <p class="sub">Tap an answer to mark it. Get 5 in a row!</p>
+    </header>
+
+    <section class="panel">
+      <div class="questionBox">
+        <div class="label">Question</div>
+        <div id="question" class="question">Press “Next Question”</div>
+      </div>
+
+      <div class="buttons">
+        <button id="nextBtn">Next Question</button>
+        <button id="newBoardBtn" class="secondary">New Board</button>
+        <button id="resetMarksBtn" class="secondary">Reset Marks</button>
+      </div>
+    </section>
+
+    <main>
+      <div id="grid" class="grid"></div>
+      <div id="status" class="status"></div>
+    </main>
+
+    <footer>
+      <small>Made with HTML + CSS + JavaScript</small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
